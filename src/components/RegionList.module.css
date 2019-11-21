@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.list > a {
+  display: flex;
+}
+
+.list > a > span:last-child {
+  justify-self: flex-end;
+}

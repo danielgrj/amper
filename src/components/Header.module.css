@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 20vh;
+  text-transform: uppercase;
+}
+
+.branding {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+}
+
+.logo {
+  width: 90vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo > img {
+  height: 98%;
+  width: auto;
+}
+
+.menu > button {
+  border: none;
+  background: none;
+}
+
+.navbar {
+  height: 4vh;
+  display: flex;
+}
+
+.navbar > div {
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid orangered;
+}
+
+.info {
+  text-align: center;
+}
+
+.info > h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
